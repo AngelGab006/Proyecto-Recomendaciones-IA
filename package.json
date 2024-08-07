@@ -13,5 +13,10 @@
   },
   "dependencies": {
     "@mlc-ai/web-llm": "^0.2.53"
-  }
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
