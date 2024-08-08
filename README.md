@@ -27,3 +27,8 @@ Ademas necesitaremos de instalar **git**, para poder clonar el repositorio.
 - Despues de tener el proyecto levantado usar la url que nos muestra la consola (ejemplo: http://localhost:5173/).
 - En este nos abrira la UI del proyecto, en la cual podemos testear la demo.
 - entramos los valores correspondientes en los inputs, en el primero nuestro nombre, y en el segundo los nombres de nuestras canciones favoritas separada por comas.
+### 4- Consejo:
+- En caso de que estes sufriendo de lentitud en tu pc a causa de esta demo, es recomendable ir a -> src -> JS -> IA.js, y cambiar el parametro de uso de gpu en un valor entre 0 y 1
+```javascript
+  { max_gpu_memory_fraction: 0.75 }
+``` 
