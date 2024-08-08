@@ -22,4 +22,13 @@ body {
     margin: 10px 0;
     padding: 10px;
   }
+  #output img{
+    width: 30px;
+    height: auto;
+    margin: 5px;
+  }
+  #loading{
+    display: flex;
+    align-items: center;
+  }
   
